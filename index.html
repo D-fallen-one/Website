@@ -10,19 +10,22 @@
     <!--Linking Materialize Stylesheet-->
     <link rel="stylesheet" href="css/materialize.css" type="text/css" media="screen,projection"/>
 
-    <!--Linking Materialize javascript-->
-    <script src="js/materialize.js"></script>
-
-
-    <!--jQuery CDN-->
     <script
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
+
+    <!--Linking Materialize javascript-->
+    <script src="js/materialize.js"></script>
+
+
     <script>
+        <!-- slider-->
         $(document).ready(function(){
+            $('.slider').slider();
             $(".dropdown-trigger").dropdown();
         });
+
     </script>
 
 </head>
@@ -31,16 +34,16 @@
 
 <nav>
 <!--Navigation Bar of the page-->
-    <nav class="blue">
+   <nav class="blue">
         <div class="container">
             <div class="nav-wrapper">
-                <a href="#" class="brand-logo"><img src="img/logo.jpg" class="circle" width="40px" height="40px"/></a>
+                <a href="#" class="brand-logo">TECHNETHICS</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="team.html"> TEAM</a></li>
-                    <li><a href="#">EVENTS</a></li>
-                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="#">RESOURCES</a></li>
                 </ul>
             </div>
         </div>
@@ -49,29 +52,210 @@
 <div class="section"></div>
 
 
+<div class="section"></div>
+
+<!--Main Content of the page-->
+
+<div class="container">
+
+    <!--slider-->
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/introduction.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3 style="color: black">INTRODUCTION </h3>
+                    <h5  style="color:black" class="light grey-text text-lighten-3">This is the technical soicety
+                        which organise the events ,group discussion and webniar.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/group%20discussion.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>GROUOP DISCUSSION</h3>
+                    <h5 class="light grey-text text-lighten-3">We organise the group discussion online and offline both
+                        and provide group topics too.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/events.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>EVENTS</h3>
+                    <h5 class="light grey-text text-lighten-3">Our society organise the events technical and non techinal both
+                    </h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/webinar.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>WEBINAR</h3>
+                    <h5 class="light grey-text text-lighten-3">this society also oragnise the webniar through video.</h5>
+                </div>
+            </li>
+
+            <li>
+                <img src="img/resourses.png"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>RESOURSES</h3>
+                    <h5 class="light grey-text text-lighten-3">this society also resoures to users.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section"></div>
+
+    <!--feeds-->
+    <div class="row">
+        <div class="col l6 m6 s12">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s2 l4">
+                        <img src="img/suyash.jpg"   alt="" class="circle responsive-img"  >
+                        <!-- notice the "circle" class -->
+                    </div>
+
+                    <div class="col s10 l8">
+                        <span class="black-text">
+                            <h6>Suyash Chaudhary</h6>
+                            This is a square image. Add the "circle" class to it to make it appear circular.
+                                This is a square image. Add the "circle" class to it to make it appear circular.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col l6 m6 s12">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s2 l4">
+                        <img src="img/suyash.jpg"   alt="" class="circle responsive-img"  >
+                        <!-- notice the "circle" class -->
+                    </div>
+
+                    <div class="col s10 l8">
+                        <span class="black-text">
+                            <h6>Suyash Chaudhary</h6>
+                            This is a square image. Add the "circle" class to it to make it appear circular.
+                                This is a square image. Add the "circle" class to it to make it appear circular.
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col l6 m6 s12">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s2 l4">
+                        <img src="img/suyash.jpg"   alt="" class="circle responsive-img"  >
+                        <!-- notice the "circle" class -->
+                    </div>
+
+                    <div class="col s10 l8">
+                        <span class="black-text">
+                            <h6>Suyash Chaudhary</h6>
+                            This is a square image. Add the "circle" class to it to make it appear circular.
+                                This is a square image. Add the "circle" class to it to make it appear circular.
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col l6 m6 s12">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s2 l4">
+                        <img src="img/suyash.jpg"   alt="" class="circle responsive-img"  >
+                        <!-- notice the "circle" class -->
+                    </div>
+
+                    <div class="col s10 l8">
+                        <span class="black-text">
+                            <h6>Suyash Chaudhary</h6>
+                            This is a square image. Add the "circle" class to it to make it appear circular.
+                                This is a square image. Add the "circle" class to it to make it appear circular.
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- director-->
+    <div class="card-panel">
+        <h4 class="center">MEMBERS</h4>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s6 l3 m2"><img class=" circle responsive-img " src="img/suyash.jpg">
+                <h5 align="center">ankit</h5>
+                <a href="#"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
+                <a href="#"><img src="https://png.icons8.com/color/50/000000/instagram-new.png"></a>
+                <a href="#"><img src="https://png.icons8.com/color/50/000000/linkedin.png"></a>
+
+            </div>
+            <div class="col s6 l3 m2"><img class=" circle responsive-img " src="img/suyash.jpg">
+                <h5 align="center">ankit</h5>
+                <a href="#"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
+                <a href="#"><img src="https://png.icons8.com/color/50/000000/instagram-new.png"></a>
+                <a href="#"><img src="https://png.icons8.com/color/50/000000/linkedin.png"></a>
+
+            </div><div class="col s6 l3 m2"><img class=" circle responsive-img " src="img/suyash.jpg">
+            <h5 align="center">ankit</h5>
+            <a href="#"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
+            <a href="#"><img src="https://png.icons8.com/color/50/000000/instagram-new.png"></a>
+            <a href="#"><img src="https://png.icons8.com/color/50/000000/linkedin.png"></a>
+
+        </div><div class="col s6 l3 m2"><img class=" circle responsive-img " src="img/suyash.jpg">
+            <h5 align="center">ankit</h5>
+
+            <a href="#"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
+            <a href="#"><img src="https://png.icons8.com/color/50/000000/instagram-new.png"></a>
+            <a href="#"><img src="https://png.icons8.com/color/50/000000/linkedin.png"></a>
+
+        </div>
+
+        </div>
+    </div>
+
+</div>
+
+
 <!--Footer of the page-->
     <footer class="page-footer blue">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Footer Content</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <img src="ipec_logo.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+
+                    <h5 class="white-text">IPEC</h5>
+                    <p class="grey-text text-lighten-4">Inderprastha engineering college</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                        <li><img src="https://png.icons8.com/material/50/000000/facebook.png" class="boxx"></li>
-                    </ul>
+                    <h5 class="white-text">CONTACTS</h5>
+
+                        <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
+                        <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/color/50/000000/instagram-new.png"></a>
+                        <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/color/50/000000/git.png"></a>
+                        <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/color/50/000000/whatsapp.png"></a>
+                        <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/color/50/000000/google-logo.png"></a>
+                        <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/ios/50/000000/phone-filled.png"></a>
+
+
+
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2014 Copyright Text
+                © 2018 Copyright Text
                 <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
         </div>
