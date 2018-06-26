@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="ac742235-4591-42c7-8cbc-0cb80ca62576" name="Default" comment="" />
     <list default="true" id="ac742235-4591-42c7-8cbc-0cb80ca62576" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/img/bg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -33,6 +34,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1012">
               <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+            <state relative-caret-position="150">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -148,18 +152,16 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="35" />
+    <option name="y" value="25" />
   <component name="ProjectFrameBounds" extendedState="7">
-<<<<<<< HEAD
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
-=======
-    <option name="x" value="61" />
-
     <option name="width" value="1750" />
     <option name="height" value="1039" />
->>>>>>> 4e04e4272a043361500048489de952121f880696
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,7 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529429890854</updated>
-<<<<<<< HEAD
       <workItem from="1529429892387" duration="1455000" />
       <workItem from="1529476877282" duration="9111000" />
       <workItem from="1529528487374" duration="23608000" />
@@ -238,13 +239,12 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="58208000" />
+    <option name="totallyTimeSpent" value="10298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10310641" />
-
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -576,7 +576,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-
         <state relative-caret-position="3058">
           <caret line="217" column="10" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="10" />
           <folding>
@@ -808,7 +807,6 @@
             <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#3;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-
         </state>
       </provider>
     </entry>
