@@ -149,11 +149,19 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
+<<<<<<< HEAD
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
+=======
+    <option name="x" value="61" />
+
+    <option name="width" value="1750" />
+    <option name="height" value="1039" />
+>>>>>>> 4e04e4272a043361500048489de952121f880696
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -177,6 +185,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -184,8 +193,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Suyash\Desktop\Website\img" />
-      <recent name="C:\Users\Suyash\Desktop\Website" />
+      <recent name="C:\Users\MARK_42\WebstormProjects\TEWebsite\img" />
       <recent name="C:\Users\MARK_42\WebstormProjects\TEWebsite\js" />
       <recent name="C:\Users\MARK_42\WebstormProjects\TEWebsite\css" />
     </key>
@@ -215,6 +223,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529429890854</updated>
+<<<<<<< HEAD
       <workItem from="1529429892387" duration="1455000" />
       <workItem from="1529476877282" duration="9111000" />
       <workItem from="1529528487374" duration="23608000" />
@@ -233,7 +242,9 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
+
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10310641" />
+
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -565,6 +576,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="3058">
           <caret line="217" column="10" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="10" />
           <folding>
@@ -796,6 +808,7 @@
             <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#3;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+
         </state>
       </provider>
     </entry>
