@@ -16,31 +16,41 @@
     <script>
         $(document).ready(function(){
             $('.parallax').parallax();
+            $('.sidenav').sidenav();
         });
 
     </script>
+    <style>
+        body{
+            background-image: url("img/bg2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 
 
 </head>
 <body>
 
 <!--Navigation Bar of the page-->
-<nav class="blue">
-    <div class="container">
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">TECHETHNICS</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="team.html">TEAM</a></li>
-                <li><a href="events.html">EVENTS</a></li>
-                <li><a href="resourses.html">RESOURCES</a> </li>
-                <li><a href="login.html">LOGIN</a> </li>
-            </ul>
+<div class="navbar-fixed">
+    <nav class="blue">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">TECHETHNICS</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="resourses.html">RESOURCES</a> </li>
+                    <li><a href="login.html">LOGIN</a> </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</div>
 <!--Sidenav-->
 <ul class="sidenav" id="mobile-demo">
     <li><a href="home.html">HOME</a></li>
@@ -59,7 +69,7 @@
 
     <div class="parallax-container">
 
-        <div class="parallax"><img src="img/event1.jpg"></div>
+        <div class="parallax"><img src="img/0.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -68,7 +78,7 @@
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="img/event2.jpg"></div>
+        <div class="parallax"><img src="img/home/technical.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -80,7 +90,7 @@
 
     <div class="parallax-container">
 
-        <div class="parallax"><img src="img/event5.jpg"></div>
+        <div class="parallax"><img src="img/home/events.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -98,7 +108,7 @@
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="img/event4.jpg"></div>
+        <div class="parallax"><img src="img/home/group%20discussion.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">

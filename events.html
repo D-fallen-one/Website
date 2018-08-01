@@ -20,39 +20,43 @@
                 fullWidth: true,
                 indicators: true
             });
+            $('.sidenav').sidenav();
         });
-
-
-
-
     </script>
+    <style>
+        body{
+            background-image: url("img/bg2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
 <!--Navigation Bar of the page-->
-<nav class="blue">
-    <div class="container">
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">TECHETHNICS</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="team.html">TEAM</a></li>
-                <li><a href="events.html">EVENTS</a></li>
-                <li><a href="resourses.html">RESOURCES</a> </li>
-                <li><a href="login.html">LOGIN</a> </li>
-            </ul>
+<div class="navbar-fixed">
+    <nav class="blue">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">TECHETHNICS</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="resourses.html">RESOURCES</a> </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</div>
 <!--Sidenav-->
-<ul class="sidenav" id="mobile-demo">
-    <li><a href="home.html">HOME</a></li>
-    <li><a href="about.html">ABOUT</a></li>
-    <li><a href="team.html">TEAM</a></li>
-    <li><a href="events.html">EVENTS</a></li>
-    <li><a href="resourses.html">RESOURCES</a> </li>
-    <li><a href="login.html">LOGIN</a> </li>
+<ul class="sidenav collection" id="mobile-demo">
+    <li class="collection-item"><a href="index.html">HOME</a></li>
+    <li class="collection-item"><a href="about.html">ABOUT</a></li>
+    <li class="collection-item"><a href="team.html">TEAM</a></li>
+    <li class="collection-item active"><a href="events.html">EVENTS</a></li>
+    <li class="collection-item"><a href="resourses.html">RESOURCES</a> </li>
 </ul>
 
 
@@ -285,7 +289,6 @@
 
     </div>
 
-</div>
 </div>
 <!--Footer of the page-->
 <footer class="page-footer blue">

@@ -9,6 +9,8 @@
 
     <!--Linking Materialize Stylesheet-->
     <link rel="stylesheet" href="css/materialize.css" type="text/css" media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <script
             src="https://code.jquery.com/jquery-3.3.1.js"
@@ -20,7 +22,6 @@
 
 
     <script>
-        <!-- slider-->
         $(document).ready(function(){
             $('.slider').slider();
             $(".dropdown-trigger").dropdown();
@@ -40,37 +41,37 @@
 <body class ="blue lighten-4">
 
 <!--Navigation Bar of the page-->
-<nav class="blue">
-    <div class="container">
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">TECHETHNICS</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="team.html">TEAM</a></li>
-                <li><a href="events.html">EVENTS</a></li>
-                <li><a href="resourses.html">RESOURCES</a> </li>
-                <li><a href="login.html">LOGIN</a> </li>
-            </ul>
-        </div>
+    <div class="navbar-fixed">
+        <nav class="blue">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">TECHETHNICS</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="team.html">TEAM</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="resourses.html">RESOURCES</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-</nav>
 <!--Sidenav-->
-<ul class="sidenav" id="mobile-demo">
-    <li><a href="home.html">HOME</a></li>
-    <li><a href="about.html">ABOUT</a></li>
-    <li><a href="team.html">TEAM</a></li>
-    <li><a href="events.html">EVENTS</a></li>
-    <li><a href="resourses.html">RESOURCES</a> </li>
-    <li><a href="login.html">LOGIN</a> </li>
-</ul>
+    <ul class="sidenav collection" id="mobile-demo">
+        <li class="collection-item active"><a href="index.html">HOME</a></li>
+        <li class="collection-item"><a href="about.html">ABOUT</a></li>
+        <li class="collection-item"><a href="team.html">TEAM</a></li>
+        <li class="collection-item"><a href="events.html">EVENTS</a></li>
+        <li class="collection-item"><a href="resourses.html">RESOURCES</a> </li>
+    </ul>
 
-<div class="section"></div>
+    <div class="section"></div>
 
 <!--Main Content of the page-->
 
-<div class="container">
+    <div class="container">
 
     <!--slider-->
 
@@ -85,7 +86,7 @@
                 </div>
             </li>
             <li>
-                <img src="img/home/1.jpg"> <!-- random image -->
+                <img src="img/group%20discussion.jpg"> <!-- random image -->
                 <div class="caption left-align">
                     <h3>GROUOP DISCUSSION</h3>
                     <h5 class="light grey-text text-lighten-3">We organise the group discussion online and offline both
@@ -123,18 +124,18 @@
 
     <!--feeds-->
     <div class="row">
-        <div class="col l6 m6 s12">
+        <div class="col l6 m12 s12">
             <div class="card-panel grey lighten-5 z-depth-1">
                 <div class="row valign-wrapper">
-                    <div class="col s2 l4">
-                        <img src="img/suyash.jpg"   alt="" class="circle responsive-img"  >
+                    <div class="col s4 m3 l4">
+                        <img src="img/team/sankalp.png"   alt="" class="circle responsive-img"  >
                         <!-- notice the "circle" class -->
                     </div>
 
-                    <div class="col s10 l8">
+                    <div class="col s8 m9 l8">
                         <span class="black-text">
-                            <h5>Suyash Chaudhary</h5>
-                            <h6>2015-2019</h6>
+                            <h5>Sankalp Malohtra</h5>
+                            <h6>2013-2017</h6>
                             <div class="divider"></div>
                             <div class="section"></div>
                             This is a square image. Add the "circle" class to it to make it appear circular.
@@ -144,18 +145,18 @@
                 </div>
             </div>
         </div>
-        <div class="col l6 m6 s12">
+        <div class="col l6 m12 s12">
             <div class="card-panel grey lighten-5 z-depth-1">
                 <div class="row valign-wrapper">
-                    <div class="col s2 l4">
-                        <img src="img/suyash.jpg"   alt="" class="circle responsive-img"  >
+                    <div class="col s4 m3 l4">
+                        <img src="img/team/anshul.png"   alt="" class="circle responsive-img"  >
                         <!-- notice the "circle" class -->
                     </div>
 
-                    <div class="col s10 l8">
+                    <div class="col s8 m9 l8">
                         <span class="black-text">
-                            <h5>Suyash Chaudhary</h5>
-                            <h6>2015-2019</h6>
+                            <h5>Anshul Bhatiya</h5>
+                            <h6>2013-2017</h6>
                             <div class="divider"></div>
                             <div class="section"></div>
                             This is a square image. Add the "circle" class to it to make it appear circular.
@@ -169,18 +170,18 @@
         </div>
     </div>
     <div class="row">
-        <div class="col l6 m6 s12">
+        <div class="col l6 m12 s12">
             <div class="card-panel grey lighten-5 z-depth-1">
                 <div class="row valign-wrapper">
-                    <div class="col s2 l4">
-                        <img src="img/suyash.jpg"   alt="" class="circle responsive-img"  >
+                    <div class="col s4 m3 l4">
+                        <img src="img/team/sanjay.jpg"   alt="" class="circle responsive-img"  >
                         <!-- notice the "circle" class -->
                     </div>
 
-                    <div class="col s10 l8">
+                    <div class="col s8 m9 l8">
                         <span class="black-text">
-                            <h5>Suyash Chaudhary</h5>
-                            <h6>2015-2019</h6>
+                            <h5>Sanjay Pandey</h5>
+                            <h6>2013-2017</h6>
                             <div class="divider"></div>
                             <div class="section"></div>
                             This is a square image. Add the "circle" class to it to make it appear circular.
@@ -191,18 +192,18 @@
             </div>
 
         </div>
-        <div class="col l6 m6 s12">
+        <div class="col l6 m12 s12">
             <div class="card-panel grey lighten-5 z-depth-1">
                 <div class="row valign-wrapper">
-                    <div class="col s2 l4">
-                        <img src="img/suyash.jpg"   alt="" class="circle responsive-img"  >
+                    <div class="col s4 m3 l4">
+                        <img src="img/team/Divya_Mam.jpg"   alt="" class="circle responsive-img"  >
                         <!-- notice the "circle" class -->
                     </div>
 
-                    <div class="col s10 l8">
+                    <div class="col s8 m9 l8">
                         <span class="black-text">
-                            <h5>Suyash Chaudhary</h5>
-                            <h6>2015-2019</h6>
+                            <h5>Divya Bajaj</h5>
+                            <h6>2014-2018</h6>
                             <div class="divider"></div>
                             <div class="section"></div>
                             This is a square image. Add the "circle" class to it to make it appear circular.
@@ -222,13 +223,19 @@
         <div class="divider"></div>
         <div class="section"></div>
         <div class="row">
-            <div class="col l4 m4 s12">
+            <div class="col l4 m6 offset-m3 s12">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/suyash.jpg" class="responsive-img circle">
-                        <span class="card-title">Suyash Chaudhary</span>
+                        <img src="img/home/director378x378.png" class="responsive-img circle">
+                        <span class="card-title">DIRECTOR</span>
                     </div>
-                    <div class="card-content">IT 3rd year</div>
+                    <div class="card-content">
+                        <h5>B. C. Sharma</h5>
+                        <div class="valign-wrapper">
+                                <i class="material-icons">email</i>
+                                <span > director@ipec.org.in</span>
+                        </div>
+                    </div>
                     <div class="card-action">
                         <div class="row">
                             <div class="col l4 m4 s4">
@@ -244,17 +251,23 @@
                     </div>
                 </div>
             </div>
-            <div class="col l4 m4 s12">
+            <div class="col l4 m6 offset-m3 s12">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/suyash.jpg" class="responsive-img circle">
-                        <span class="card-title">Suyash Chaudhary</span>
+                        <img src="img/home/hod378x378.jpg" class="responsive-img circle">
+                        <span class="card-title">HOD</span>
                     </div>
-                    <div class="card-content">IT 3rd year</div>
+                    <div class="card-content">  
+                        <h5>Pooja Tripathi</h5>
+                        <div class="valign-wrapper">
+                                <i class="material-icons">email</i>
+                                <span > pooja.tripathi@ipec.org.in</span>
+                        </div>
+                    </div>
                     <div class="card-action">
                         <div class="row">
                             <div class="col l4 m4 s4">
-                                <a href="#"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
+                                <a href="https://www.facebook.com/pooja.tripathi.982" target="_blank"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
                             </div>
                             <div class="col l4 m4 s4">
                                 <a href="#"><img src="https://png.icons8.com/color/50/000000/instagram-new.png"></a>
@@ -266,17 +279,23 @@
                     </div>
                 </div>
             </div>
-            <div class="col l4 m4 s12">
+            <div class="col l4 m6 offset-m3 s12">
                 <div class="card">
                     <div class="card-image">
-                        <img src="img/suyash.jpg" class="responsive-img circle">
-                        <span class="card-title">Suyash Chaudhary</span>
+                        <img src="img/home/convenor378x378.jpg" class="responsive-img circle">
+                        <span class="card-title">CONVENOR</span>
                     </div>
-                    <div class="card-content">IT 3rd year</div>
+                    <div class="card-content">
+                        <h5>Monika Sainger</h5>
+                        <div class="valign-wrapper">
+                                <i class="material-icons">email</i>
+                                <span > monika.sainger@ipec.org.in</span>
+                        </div>
+                    </div>
                     <div class="card-action">
                         <div class="row">
                             <div class="col l4 m4 s4">
-                                <a href="#"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
+                                <a href="https://www.facebook.com/monika.sainger" target="_blank"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
                             </div>
                             <div class="col l4 m4 s4">
                                 <a href="#"><img src="https://png.icons8.com/color/50/000000/instagram-new.png"></a>
@@ -290,8 +309,6 @@
             </div>
         </div>
         </div>
-    </div>
-
 </div>
 
 
@@ -312,7 +329,7 @@
         <div class="row">
             <div class="col l4 s12">
                 <h5 class="white-text">SPONSERS</h5>
-                <img src="img/ipec_logo150x150.png" class="circle">
+                <img src="img/ipec_logo150x150.png" width="60" height="60" class="circle">
                 <p class="grey-text text-lighten-4">At TechEthnics we aim to spread awareness about the upcoming Stipend/un-stipend Internships around the world.</p>
             </div>
             <div class="col l4">
@@ -323,16 +340,13 @@
                 <h5 class="white-text">Links</h5>
                 <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
                 <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/color/50/000000/instagram-new.png"></a>
-                <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/color/50/000000/git.png"></a>
-                <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/color/50/000000/whatsapp.png"></a>
-                <a class="grey-text text-lighten-3" href="#!"><img src="https://png.icons8.com/color/50/000000/google-logo.png"></a>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container">
             © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <a class="grey-text text-lighten-4 right" href="#!">Made By: Shivam and Suyash</a>
         </div>
     </div>
 </footer>

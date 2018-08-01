@@ -15,42 +15,47 @@
             crossorigin="anonymous"></script>
     <style>
         body{
-            background-image: url("img/back2.jpg");
+            background-image: url("img/bg2.jpg");
             background-size: cover;
             background-repeat:no-repeat ;
         }
     </style>
 
+    <script>
+                  $(document).ready(function(){
+                    $('.sidenav').sidenav();
+                    });
+    </script>
+
 </head>
 <body>
 <!--Navigation Bar of the page-->
 
-<nav class="blue">
-    <div class="container">
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">TECHETHNICS</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="team.html">TEAM</a></li>
-                <li><a href="events.html">EVENTS</a></li>
-                <li><a href="resourses.html">RESOURCES</a> </li>
-                <li><a href="login.html">LOGIN</a> </li>
-            </ul>
+<div class="navbar-fixed">
+    <nav class="blue">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">TECHETHNICS</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="resourses.html">RESOURCES</a> </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</div>
 <!--Sidenav-->
-<ul class="sidenav" id="mobile-demo">
-    <li><a href="home.html">HOME</a></li>
-    <li><a href="about.html">ABOUT</a></li>
-    <li><a href="team.html">TEAM</a></li>
-    <li><a href="events.html">EVENTS</a></li>
-    <li><a href="resourses.html">RESOURCES</a> </li>
-    <li><a href="login.html">LOGIN</a> </li>
+<ul class="sidenav collection" id="mobile-demo">
+    <li class="collection-item active"><a href="index.html">HOME</a></li>
+    <li class="collection-item"><a href="about.html">ABOUT</a></li>
+    <li class="collection-item"><a href="team.html">TEAM</a></li>
+    <li class="collection-item"><a href="events.html">EVENTS</a></li>
+    <li class="collection-item"><a href="resourses.html">RESOURCES</a> </li>
 </ul>
-
 
 <div class="section"></div>
 
@@ -117,13 +122,9 @@
                             <p>I am a very simple card. I am good at containing small bits of information.</p>
                         </div>
                         <div class="card-action">
-
-                                <a href="#">
-                                    <a href="#"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
-                                    <a href="#"><img src="https://png.icons8.com/color/50/000000/instagram-new.png"></a>
-                                    <a href="#"><img src="https://png.icons8.com/color/50/000000/linkedin.png"></a>
-                                </a>
-
+                            <a href="#"><img src="https://png.icons8.com/color/50/000000/facebook.png"></a>
+                            <a href="#"><img src="https://png.icons8.com/color/50/000000/instagram-new.png"></a>
+                            <a href="#"><img src="https://png.icons8.com/color/50/000000/linkedin.png"></a>
                         </div>
                     </div>
                 </div>
@@ -131,11 +132,11 @@
             <div class="col s12 m6 l6">
                 <div class="card horizontal">
                     <div class="card-image">
-                        <img src="img/suyash.jpg">
+                        <img src="img/team/Divya_Mam.jpg">
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
-                            <h5>Sanjay</h5>
+                            <h5>Divya Bajaj</h5>
                             <p>I am a very simple card. I am good at containing small bits of information.</p>
                         </div>
                         <div class="card-action">
